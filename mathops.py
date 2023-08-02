@@ -8,7 +8,10 @@ def sub(a,b):
 def mul(a,b):
     return a*b
 
+def div(a,b):
+    return a/b
 
 print("Sum is:", add(5,10))
 print("Difference is:", sub(15,10))
 print("Product is:", mul(5,10))
+print("Quotient is:", div(15,3))
